@@ -1,0 +1,89 @@
+/* App.css */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #1b89d8, #f7b5b1, #78f4db);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  max-width: 400px;
+  width: 100%;
+  z-index: 2;
+  animation: float 4s ease-in-out infinite;
+}
+
+.container h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  animation: float 4s ease-in-out infinite;
+}
+
+input:hover, textarea:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  animation: float 4s ease-in-out infinite;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 91, 187, 0.4);
+}
+/* Particle Background (tsParticles container) */
+#tsparticles 
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+ left: 0;
+}
