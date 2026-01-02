@@ -100,6 +100,7 @@ Bash
 •npm start
 Frontend runs on:
 http://localhost:3000
+
 🧭 MongoDB Compass
 MongoDB Compass is used to visually view and manage database records.
 Steps:
@@ -107,13 +108,16 @@ Steps:
 2. Click New Connection
 3. Paste the MongoDB connection string from .env
 4. Connect and view stored contact form data
+ 
 🔐 Security
 • Sensitive data stored in .env
 • .env added to .gitignore
 • Secrets are never pushed to GitHub
+
 👨‍💻 Author
 Adhitya A
 B.Tech CSE
 Learning MERN Stack Development
+
 📜 License
 This project is created for learning and educational purposes.
