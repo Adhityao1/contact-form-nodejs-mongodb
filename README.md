@@ -78,10 +78,13 @@ contact-form/
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
+
 Bash
 •git clone <repository-url>
 •cd contact-form
+
 2️⃣ Backend Setup
+
 Bash
 •cd server
 •npm install
@@ -93,7 +96,9 @@ Bash
 •npm start
 Backend runs on:
 http://localhost:5000
+
 3️⃣ Frontend Setup
+
 Bash
 •cd client
 •npm install
@@ -101,19 +106,26 @@ Bash
 Frontend runs on:
 http://localhost:3000
 🧭 MongoDB Compass
+
 MongoDB Compass is used to visually view and manage database records.
 Steps:
 1. Open MongoDB Compass
 2. Click New Connection
 3. Paste the MongoDB connection string from .env
 4. Connect and view stored contact form data
+ 
 🔐 Security
+
 • Sensitive data stored in .env
 • .env added to .gitignore
 • Secrets are never pushed to GitHub
+
 👨‍💻 Author
+
 Adhitya A
 B.Tech CSE
 Learning MERN Stack Development
+
 📜 License
+
 This project is created for learning and educational purposes.
