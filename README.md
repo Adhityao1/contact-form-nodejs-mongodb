@@ -32,9 +32,9 @@ Users can submit their contact details and messages, which are stored in MongoDB
 - MongoDB
 - MongoDB Compass
 
----
- 📁 Project Structure
+## 📁 Project Structure
 
+```
 contact-form/
 ├── client/                 # React Frontend
 │   ├── public/
@@ -65,7 +65,7 @@ contact-form/
 ├── package.json
 └── package-lock.json
 ```
----
+
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
