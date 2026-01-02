@@ -33,48 +33,39 @@ Users can submit their contact details and messages, which are stored in MongoDB
 - MongoDB Compass
 
 ---
- 📂 Project Structure
+ 📁 Project Structure
+
 contact-form/
-│
-├── client/                     # React Frontend
+├── client/                 # React Frontend
 │   ├── public/
 │   │   └── index.html
-│   │
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── ContactForm.jsx
-│   │   │
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   │
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── App.css
-│   │
-│   ├── package.json
-│   └── README.md
+│   └── src/
+│       ├── components/
+│       │   └── ContactForm.jsx
+│       ├── services/
+│       │   └── api.js
+│       ├── App.js
+│       ├── index.js
+│       └── App.css
 │
-├── server/                     # Express Backend
+├── server/                 # Express Backend
 │   ├── config/
 │   │   └── db.js
-│   │
 │   ├── models/
 │   │   └── Contact.js
-│   │
-│   ├── routes/
-│   │   └── contactRoutes.js
-│   │
 │   ├── controllers/
 │   │   └── contactController.js
-│   │
+│   ├── routes/
+│   │   └── contactRoutes.js
 │   ├── index.js
 │   └── package.json
 │
+├── README.md
 ├── .gitignore
-├── README.md                   # Main project README
+├── package.json
 └── package-lock.json
+```
 ---
-
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
